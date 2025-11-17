@@ -44,6 +44,9 @@
 #define ACPI_AML_BUSY		(ACPI_AML_USER | ACPI_AML_KERN)
 #define ACPI_AML_OPEN		(ACPI_AML_OPENED | ACPI_AML_CLOSED)
 
+
+
+
 struct acpi_aml_io {
 	wait_queue_head_t wait;
 	unsigned long flags;
